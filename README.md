@@ -1,16 +1,13 @@
-# TP Final - Herramientas para Grandes Volúmenes de Datos
+# TP Final - Sanchez Faris
 
-## Predicción de tarifa (`fare_amount`) - NYC Yellow Taxi
-
+Predicción de tarifa (`fare_amount`) - NYC Yellow Taxi
 Notebook: [`TP_Final_BigData_NYCTaxi.ipynb`](TP_Final_BigData_NYCTaxi.ipynb)
 
 ### Dataset
 
 Muestra aleatoria (aprox. 400.000 filas) del dataset público **NYC Yellow Taxi Trip Records - de KAGGLE**
 (NYC Taxi & Limousine Commission) - no la de databricks, tomada de 4 meses distintos (2015-01, 2016-01, 2016-02, 2016-03)
-del dataset completo (aprox. 47 millones de filas, aprox. 7.2 GB). La limpieza y el feature
-engineering se hacen con PySpark antes de reducir a un subconjunto manejable para el
-entrenamiento con scikit-learn.
+del dataset completo. 
 
 **Objetivo** estimar la tarifa de un viaje de taxi (`fare_amount`) a partir de datos
 conocidos antes/durante el viaje (distancia, ubicación, hora, pasajeros).
